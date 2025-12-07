@@ -14,3 +14,32 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛍️ BargainBay  – Frontend (React + Vite)
+
+This repository contains the frontend of the BargainBay e-commerce web application.  
+It is built using **React + Vite** for fast performance, responsive UI, and modern shopping experience.
+
+## 🌟 Main Features
+- Fully responsive UI (Laptop / Tablet / Mobile)
+- Login & Signup with JWT authentication
+- Product listing with categories, search & filters
+- Shopping cart & wishlist
+- Place order with success page
+- Admin panel to add / delete products
+- Dynamic navbar based on user login status
+
+## 🧰 Tech Stack
+| Technology | Purpose |
+|----------|---------|
+| React (Vite) | Frontend framework |
+| JavaScript | Functionality & logic |
+| HTML, CSS | UI & styling |
+| Axios | REST API calls |
+| React Hooks & Context | State management |
+
+## 🔗 Communication With Backend
+- Sends API requests to Spring Boot backend using Axios
+- Stores JWT in local storage and attaches it in Authorization header
+- Protects private pages using token validation
+
+This frontend provides a smooth and modern shopping experience for the BargainBay platform.
